@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <meta charset="utf-8">
+    <script src="https://bytes.usc.edu/~saty/tools/xem/c/prtt.js"></script>
+    <title>CSCI571 HW1</title>
+</head>
+<style>
+    body {
+        position: static;
+        background-color: #222429;
+        /* background-image: url(home1.png);
+        background-size: cover; */
+        font-style: Comfortaa;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        width: 1450px;
+
+    }
+
+    a.menu {
+        color: white;
+        text-shadow: 1px 1px #e57f3a;
+        text-decoration: none;
+        margin: 50px
+    }
+
+    a.menu:hover {
+        color: #e57f3a;
+        text-shadow: 1px 1px white;
+    }
+
+    a.section5 {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    a.section5:hover {
+        text-decoration: underline;
+        /* color: #FF0000; */
+
+    }
+
+    .section1 {
+
+        background-image: url(rodeo-drive.jpeg);
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-position: 0px -600px;
+        height: 330px;
+        background-size: 1500px;
+
+    }
+
+    .section2 {
+        display: inline;
+        margin-left: 200px;
+        left: 150px;
+    }
+
+    .section3 {
+        background-color: #12141b;
+        height: 500px;
+        margin-top: 100px;
+
+
+
+    }
+
+    .divSection3 {
+        margin-top: 100px;
+
+        font-family: Comfortaa;
+        font-size: 14px;
+        border-left: 60px;
+        border-top: 65px;
+        border-bottom: 140px;
+        font-weight: normal;
+    }
+
+    .imgS3 {
+
+        margin-top: 100px;
+
+        margin-right: 145px;
+        margin-left: 145px;
+        width: 500px;
+        /* 2121 × 1193 */
+        height: 300px;
+        float: right;
+    }
+
+    .pS3 {
+        border-left: 100px solid #12141b;
+        border-right: 100px solid #12141b;
+        border-top: 100px solid #12141b;
+        border-bottom: 130px solid #12141b;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    p.menu {
+        font-weight: lighter;
+        font-style: Comfortaa;
+        color: #e57f3a;
+
+    }
+
+    p.s1 {
+        font-size: 40px;
+        font-weight: lighter;
+        color: #e57f3a;
+        text-shadow: 1px 1px white;
+        text-align: center;
+        line-height: 320px;
+    }
+
+    .imgS2 {
+        /* display: inline; */
+        border-radius: 5px;
+        width: 280px;
+        height: 220px;
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+
+    .container1 img {
+        margin-left: 220px;
+        width: 310px;
+        height: 225px;
+        float: left;
+    }
+
+    .container1 h5 {
+        border-left: 600px solid #222429;
+        border-right: 220px solid #222429;
+        border-top: 0px solid #222429;
+        border-bottom: 10px solid #222429;
+        font-family: Comfortaa;
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .container2 img {
+        margin-right: 220px;
+        width: 310px;
+        height: 225px;
+        float: right;
+    }
+
+    .container2 h5 {
+        font-family: Comfortaa;
+
+        font-size: 14px;
+        border-right: 600px solid #222429;
+
+        border-left: 220px solid #222429;
+        border-bottom: 140px solid #222429;
+        font-weight: normal;
+    }
+
+
+
+    .section5 {
+        background-color: #11131b;
+        height: 330px;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .sec2 {
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 500px;
+        left: 400px;
+        color: white;
+    }
+
+    .box {
+        border-radius: 15px;
+        background-color: black;
+        height: 550px;
+        width: 300px;
+        margin: 30px;
+        display: inline-block;
+    }
+</style>
+
+<body>
+
+    <div id="menu"
+        style="font-family: 'Comfortaa', cursive;height:40px;font-size:30px;line-height: 70px;text-align: center;">
+        <a href="" class="menu">Home</a>
+        <a href="other.html" class="menu">Explore</a>
+        <a href="other.html" class="menu">Contact</a>
+
+    </div>
+    <div id="section1" class="section1">
+        <p class="s1" style="font-family: 'Montserrat', cursive;">LA - The City of Angels</p>
+
+    </div>
+    
+    <div id="section2" class="section2">
+
+        <div
+        style="border-radius: 5px;height:500px; width:320px; display:inline-block;background-color:#12141b;margin-right:20px">
+            <img src="griffith.jpeg" class="imgS2">
+            <div style="margin-left: 20px;margin-right: 20px;">
+            <h3 id="s2H1"style="text-align:left;font-family:Comfortaa;color:white;font-size:17px;"></h3>
+                <p id="s2Text1"
+                    style="text-align:left;font-weight: lighter;font-family:Comfortaa;color:white;font-size:14px;"></p>
+            </div>
+        </div>
+
+    <div
+        style="margin-top: 80px;border-radius: 5px;height:500px; width:320px; display:inline-block;background-color:#12141b;margin-right:20px">
+        <img src="mountains.jpeg" class="imgS2">
+
+        <div style="margin-left: 20px;margin-right: 20px;">
+            <h3 id="s2H2"style="text-align:left;font-family:Comfortaa;color:white;font-size:17px;"></h3>
+
+                <p id="s2Text2"
+                    style="text-align:left;font-weight: lighter;font-family:Comfortaa;color:white;font-size:14px;"></p>
+            </div>
+    </div>
+    <div
+        style=" border-radius: 5px;height:500px; width:320px; display:inline-block;background-color:#12141b;margin-right:20px">
+        <img src="universalstudios.jpeg" class="imgS2">
+        <div style="margin-left: 20px;margin-right: 20px;">
+            <h3 id="s2H3"style="text-align:left;font-family:Comfortaa;color:white;font-size:17px;"></h3>
+                <p id="s2Text3"
+                    style="text-align:left;font-weight: lighter;font-family:Comfortaa;color:white;font-size:14px;"></p>
+            </div>
+    </div>
+  </div>
+    <div id="section3" class="section3">
+        <div class="divSection3" id="Indian">
+            <img src="lasky.png" alt="indian" class="imgS3">
+
+            <p style="color:white;" class="pS3">Los Angeles is the City of Dreams and is the heart of southern
+                California. It is a vast and varied geographic entity. The city is famous for being the home of the rich
+                and famous, Hollywood, the main home of major entertainment companies, ethnically diverse, and the
+                second-largest city in America.
+                <br> <br>The residents of Los Angeles are called Angelenos. Their lifestyle relies on the automobile,
+                idealizes the single-family dwelling, and favours informality. With notable exceptions, the skyline is
+                primarily horizontal rather than vertical. Los Angeles is a place of extraordinary ethnic and racial
+                diversity, owing largely to immigration. It is a must visit place and a beautiful vacation desination.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="container1" id="container1">
+        <img src="hollywood.jpeg" alt="container1">
+        <h5>
+            <span style="font-family:Comfortaa;color:white;">
+                <h2 style="text-align:left;font-size:20px;font-weight:bolder;" id="hollywood"></h2>
+
+
+                <p id="s4hollywood" style="font-size:15px;line-height: 150%;text-align: justify;"></p>
+            </span>
+        </h5>
+    </div>
+
+    <div class="container2" id="container2">
+        <img src="beach.jpeg" alt="container2">
+        <h5>
+            <span style="font-family:Comfortaa;color:white;">
+                <h2 style="text-align:right;font-size:20px;font-weight:bolder;" id="beaches"></h2>
+                <p id="s4beaches" style="font-size:15px;line-height: 150%;text-align: justify;"></p>
+            </span>
+        </h5>
+    </div>
+
+
+    <div class="section5" id="section5">
+
+        <div class="container">
+            <div style="width: 370%;">
+                <div style="width: 100%; margin-top: 100px;">
+                    <p style="font-family: 'Comfortaa';font-size:20px;text-align: center;color: white;font-size:14px;">
+                        Tip the world over on its side and everything
+                        loose will land
+                        <br>in Los Angeles.
+                    </p>
+                </div>
+                <p style="font-family: 'Comfortaa';font-size:20px;text-align: center;color: white;font-size:17px;"> -
+                    Frank Lloyd Wright</p>
+            </div>
+            <div style="width: 370%;margin-top: 50px;">
+                <p style="font-family: 'Comfortaa';font-size:20px;text-align: center;color: white;font-size:17px;">
+                    Designed By</p>
+                <p style="font-family: 'Comfortaa';font-size:20px;text-align: center;color: white;font-size:14px;">Yinan
+                    Fu
+                    <br> <br> <br>
+                    <a href="" class="section5">yinanfu@usc.edu </a> <br>
+                    <a href="" class="section5">(+1)213 442 9415</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    // fetch() is an alternate/better/newer way to fetch data,
+    // compared to XHR. Below, uncomment/comment either 'DATA'
+    // line... 
+    let DATA = 'https://raw.githubusercontent.com/yinanfu/yinanfu.github.io/main/data.json';
+
+    async function fetchData() {
+        const response = await fetch(DATA);
+
+        // prtt all response headers
+        for (let [key, value] of response.headers) {
+            prtt(`${key} = ${value}`);
+        }
+        prtt("----------------------------------------------------------");
+
+        let gd = await response.json(); // also try .json()
+        //prtt(gd);
+        return gd;
+    }
+    var obj;
+    fetchData().then(
+        data => obj = data
+    ).then(
+        obj => {
+            document.querySelector("#s2H1").innerText = obj.section2[0].heading;
+            document.querySelector("#s2Text1").innerText = obj.section2[0].text;
+            document.querySelector("#s2H2").innerText = obj.section2[1].heading;
+            document.querySelector("#s2Text2").innerText = obj.section2[1].text;
+            document.querySelector("#s2H3").innerText = obj.section2[2].heading;
+            document.querySelector("#s2Text3").innerText = obj.section2[2].text;
+            document.querySelector("#hollywood").innerText = obj.section4[0].heading;
+            document.querySelector("#s4hollywood").innerText = obj.section4[0].text;
+            document.querySelector("#beaches").innerText = obj.section4[1].heading;
+            document.querySelector("#s4beaches").innerText = obj.section4[1].text;
+
+        }
+    )
+
+
+</script>
+
+</html>
