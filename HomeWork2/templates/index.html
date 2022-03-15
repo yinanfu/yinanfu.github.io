@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!-- <link rel="stylesheet" type="../HW2/css/style.css" href="../HW2/css/style.css"> -->
+<style>
+    body {
+
+        width: 1450px;
+
+    }
+</style>
+
+<body>
+    <p style="color: #7f170e; font-size: 50px; text-align:center ;font-weight:bold;">
+        Blood Pressure Predictor
+    </p>
+    <!-- <br> -->
+    <p style="color: #7f170e; font-size: 30px; text-align:center ;">
+        Fill out the form to get your Blood Pressure estimate!
+
+    </p>
+    <!-- <form action="/demo/demo_form.asp" style="text-align: center;"> -->
+
+    <form method="POST"style="text-align: center;">
+
+        <span style="font-size: 20px;font-weight:bold;text-align:right">Age</span>
+        <span style="font-size: 20px;font-weight:bold; color: red;">*</span>
+        <input style="margin-left: 2%;" type="number" name="age" id="age" required></p>
+        <br>
+        <br>
+        <span style="font-size: 20px;font-weight:bold;">Weight</span>
+        <span style="font-size: 20px;font-weight:bold; color: red;">*</span>
+        <input type="number" name="weight" id="weight" required> 
+        <br><br>
+ <input type="submit" 
+    style="background-color:#546ba2 ; height: 40px; width: 100px;border:none;font-size: 20px;color: white;"
+    value="calculate">
+    <p>{{ bp }}</p>
+
+</form>
+
+</body>
+</html>
